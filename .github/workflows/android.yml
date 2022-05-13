@@ -36,3 +36,5 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew --build-cache --no-daemon build
+    - name: Build with Gradle 2
+      run: ./gradlew --build-cache --no-daemon build
